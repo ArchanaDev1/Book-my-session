@@ -1,0 +1,15 @@
+.stu-regform{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 5px 2px rgba(155, 155, 155, 0.5);
+}
+.stu-register-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

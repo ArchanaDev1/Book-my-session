@@ -1,0 +1,26 @@
+.updateteacher-btn-container{
+   display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.updateteacher-btn-container > button{
+    width: 100%;
+
+}
+.first-div{
+    position: absolute;
+    background: #0000009c; 
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100vw;
+}
+.teacher-form{
+    background-color: white;
+}
+.btn-exit{
+    cursor: pointer;
+}

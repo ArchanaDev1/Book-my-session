@@ -1,0 +1,41 @@
+.custom-calendar-input {
+  width: 120px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.react-datepicker {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.react-datepicker__day--selected {
+  color: white;
+}
+
+.react-datepicker__header {
+  color: white;
+  font-size: 14px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  font-size: 14px;
+}
+
+.react-datepicker__day:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.react-datepicker__navigation--previous {
+  border-right-color: white;
+  margin: 5px;
+}
+
+.react-datepicker__navigation--next {
+  border-left-color: white;
+  margin: 5px;
+}

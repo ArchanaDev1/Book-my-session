@@ -1,0 +1,41 @@
+.modal-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(161, 160, 160, 0.649);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.modal-form{
+  background: white;
+  width: 300px;
+  height: 260px;
+}
+.modal-ribbon {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.modal-icon {
+  font-size: 100px;
+}
+.approve{
+    color: green;
+}
+.reject{
+    color: red;
+}

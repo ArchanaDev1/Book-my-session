@@ -1,0 +1,40 @@
+  .time-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time-input {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 5px;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .period-select {
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .clock-icon {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #4caf50;
+  }
+  
+  .formatted-time {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+  }
+  

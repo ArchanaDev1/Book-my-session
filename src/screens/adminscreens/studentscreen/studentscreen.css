@@ -1,0 +1,11 @@
+.search-button{
+    height: 35px;
+    border: none;
+    background-color: rgb(11, 125, 11);
+    color: white;
+}
+.not-found-message{
+    color: gray;
+    text-align: center;
+    margin-top: 200px;
+}

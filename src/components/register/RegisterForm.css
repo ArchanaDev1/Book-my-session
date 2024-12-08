@@ -1,0 +1,15 @@
+.Register{
+    margin-left: 25px;
+}
+.register-form{
+    height: 170px;;
+}
+.regform{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+    justify-content: space-between;
+ }

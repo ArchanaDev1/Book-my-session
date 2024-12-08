@@ -1,0 +1,47 @@
+.first-div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.teacher-form{
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    padding: 20px 20px;
+}
+.button-style{
+height: 30px;
+background-color: #4164DF;
+color: white;
+text-align: center;
+border: none;
+
+margin-top: 7px;
+}
+.h1tag{
+    text-align: center;
+}
+.Allinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+
+   
+
+.input-container{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap:10px;
+    /* background: RED; */
+}

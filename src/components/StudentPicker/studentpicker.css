@@ -1,0 +1,58 @@
+.student-picker-container{
+    background-color: rgb(206, 206, 206);
+    position: absolute;
+    z-index: 99;
+    padding: 10px;
+}
+.search-student-heading{
+    font-size: 12px;
+}
+#student-details-container{
+    display: flex;
+    flex-direction: column;
+}
+/* #not-found{
+    display: none;
+} */
+.search-student-input{
+    outline: none;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.search-student-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.search-student-input-container > input{
+    width: 100%;
+}
+.search-student-icon{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.search-student-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63, 84, 240);
+    padding: 5px;
+}
+.close-btn{
+    cursor: pointer;
+}
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px 0px;
+    /* justify-content: flex-end; */
+}
+.itemContainer>div{
+    font-size: 14px;
+}
+.btn-select{
+    width: 100%;
+}

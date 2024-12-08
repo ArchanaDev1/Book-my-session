@@ -1,0 +1,93 @@
+.schedule-appointment-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(161, 160, 160, 0.649);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.schedule-appointment-form {
+  /* max-width: 700px; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-appointment-ribbon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.schedule-appointment-exit-btn {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.schedule-appointment-row {
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-container label {
+  grid-column: span 1;
+  align-self: center;
+}
+
+.grid-container .val {
+  grid-column: span 1;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.val{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-student-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+.btn-submit{
+  height: 35px;
+  width: 100%;
+  border: none;
+  background-color: rgb(11, 125, 11);
+  color: white;
+}
+.btn-submit-container{
+  margin-top: 20px;
+  display: flex;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    grid-gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Single column on small devices */
+    grid-gap: 10px;
+  }
+}

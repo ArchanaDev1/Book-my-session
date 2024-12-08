@@ -1,0 +1,64 @@
+.form{
+   display: flex;
+   flex-direction: column;
+   height: 250px;
+   width: 250px;
+   padding: 10px;
+   box-shadow: 2px 2px 5px black;
+   justify-content: space-evenly;
+}
+.form1{
+   width: 230px;
+   height: 25px;
+   background-color: darkgreen;
+   text-align: center;
+   border: none;
+   color: white;
+   margin-top: 7px;
+}
+.Login{
+   color: darkgreen;
+   text-align: center;
+   font-size: 24px;
+}
+.par{
+   display: flex;
+   justify-content: center;
+   margin-left: 2px;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.error{
+   display: flex;
+   justify-content: center;
+   color: red;
+   margin-top: 5px;
+   font-size: 12px;
+}
+
+.mail{
+   width: 200px;
+   font-size: 16px;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid gray;
+}
+.fill{
+   display: flex;
+   flex-direction: row;
+   gap:4px;
+   margin-bottom: 15px;
+}
+.allform{
+   
+   height: 140px;
+}
+.forgot{
+   margin-left: 140px;
+   font-size: 13px;
+}
+.new-student{
+   font-size: 12px;
+   text-align: center;
+   margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+.ribbon{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(209, 209, 209);
+    /* padding: 5px 10px; */
+}
+.teacherscreen{
+    /* padding: 20px; */
+    height: 100vh;
+    width: 80vw;
+}
+.search-bar{
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+.search-bar > input{
+    font-size: 16px;
+    padding: 8px 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    outline: none;
+}
+.search-icon{
+   font-size: 25px;
+
+}
+.search-button{
+    padding: 10px;
+
+}
+.teacher-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.teacher-table th, .teacher-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.teacher-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.teacher-table tr:hover {
+    background-color: #f1f1f1;
+}
+.edit-button{
+    padding: 5px 20px;
+    
+}

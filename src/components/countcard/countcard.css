@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card-name{
+    font-size: 20px;
+}
+.card-count{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.primary{
+    background: rgb(0, 7, 61);
+}
+.secondary{
+    background: rgb(0, 126, 0);
+}
+.third{
+    background: rgb(173, 0, 165);
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
